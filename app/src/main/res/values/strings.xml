@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="txt1">Nombre: </string>
+    <string name="et1">Escriba aquí su nombre </string>
+    <string name="txt2">Apellidos: </string>
+    <string name="et2">Escriba aquí sus apellidos</string>
+    <string name="txt3">Edad: </string>
+    <string name="txt4">Sexo: </string>
+    <string name="txt5">Estado Civil: </string>
+    <string name="txt6">Hijos: </string>
+    <string name="rb1">Hombre </string>
+    <string name="rb2">Mujer </string>
+    <string name="sw1"> No / Sí </string>
+    <string name="btn1">Generar </string>
+    <string name="vacio" translatable="false">    </string>
+    <string name="soltero">soltero/a </string>
+    <string name="casado">casado/a </string>
+    <string name="viudo">viudo/a </string>
+    <string name="otro">otro </string>
+    <string name="hijosSi">tiene uno o varios hijos </string>
+    <string name="hijosNo">no tiene hijos </string>
+    <string name="faltaNombre">Falta el nombre </string>
+    <string name="faltaApellidos">Falta el apellido </string>
+    <string name="faltaEdad">"Falta la edad "</string>
+    <string name="faltaDatos">Error en los datos introducidos </string>
+    <string name="menorEdad">es menor de edad </string>
+    <string name="mayorEdad">es mayor de edad </string>
+</resources>

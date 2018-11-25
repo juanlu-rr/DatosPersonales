@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dades Personals</string>
+    <string name="txt6">"Fills: "</string>
+    <string name="txt1">"Nom: "</string>
+    <string name="txt2">"Cognoms: "</string>
+    <string name="txt3">"Edat: "</string>
+    <string name="txt4">"Sexe: "</string>
+    <string name="txt5">"Estat Civil: "</string>
+    <string name="et1">Escrigui el seu nom</string>
+    <string name="et2">Escrigui aquí els seus cognoms</string>
+    <string name="rb1">Home</string>
+    <string name="rb2">Dona</string>
+    <string name="sw1">No /  Sí</string>
+    <string name="btn1">Generar</string>
+    <string name="soltero">solter/a</string>
+    <string name="casado">casat/casada</string>
+    <string name="viudo">vidu/a</string>
+    <string name="otro">un altre</string>
+    <string name="hijosSi">té diversos fills</string>
+    <string name="hijosNo">no té fills</string>
+    <string name="faltaNombre">Falta el nom</string>
+    <string name="faltaApellidos">Falta el cognom</string>
+    <string name="faltaEdad">Falta la edat</string>
+    <string name="faltaDatos">Error en les dades</string>
+    <string name="menorEdad">menor d\'edat</string>
+    <string name="mayorEdad">major d\'edat</string>
+</resources>

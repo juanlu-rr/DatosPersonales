@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="layoutVer" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:background">@mipmap/fondo</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="layoutHor" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+    <style name="textView" parent="AppTheme">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textView.txt1" parent="textView">
+        <item name="android:text">@string/txt1</item>
+    </style>
+    <style name="textView.txt2" parent="textView">
+        <item name="android:text">@string/txt2</item>
+    </style>
+    <style name="textView.txt3" parent="textView">
+        <item name="android:text">@string/txt3</item>
+    </style>
+    <style name="textView.txt4" parent="textView">
+        <item name="android:text">@string/txt4</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="textView.txt5" parent="textView">
+        <item name="android:text">@string/txt5</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+    <style name="textView.txt6" parent="textView">
+        <item name="android:text">@string/txt6</item>
+    </style>
+    <style name="editText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:ems">10</item>
+    </style>
+    <style name="editText.et1" parent="editText">
+        <item name="android:hint">@string/et1</item>
+        <item name="android:inputType">textCapWords|textPersonName</item>
+        <item name="android:id">@id/et1</item>
+    </style>
+    <style name="editText.et2" parent="editText">
+        <item name="android:hint">@string/et2</item>
+        <item name="android:inputType">textCapWords|textPersonName</item>
+        <item name="android:id">@id/et2</item>
+    </style>
+    <style name="editText.et3" parent="editText">
+        <item name="android:inputType">number</item>
+        <item name="android:id">@id/et3</item>
+    </style>
+    <style name="radioGroup" parent="AppTheme">
+        <item name="android:id">@id/rdSexo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="rb1" parent="AppTheme">
+        <item name="android:id">@id/rb1</item>
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/rb1</item>
+    </style>
+    <style name="rb2" parent="AppTheme">
+        <item name="android:id">@id/rb2</item>
+        <item name="android:layout_width">84dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">115dp</item>
+        <item name="android:layout_marginTop">-31dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/rb2</item>
+    </style>
+    <style name="spinner" parent="AppTheme">
+        <item name="android:id">@id/lstEstados</item>
+        <item name="android:layout_width">208dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+        <item name="android:gravity">center</item>
+        <item name="android:hapticFeedbackEnabled">false</item>
+    </style>
+    <style name="sw" parent="AppTheme">
+        <item name="android:id">@id/sw1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/sw1</item>
+    </style>
+    <style name="button1" parent="AppTheme">
+        <item name="android:id">@id/btn1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:text">@string/btn1</item>
+    </style>
+    <style name="txtM" parent="AppTheme">
+        <item name="android:id">@id/txtMostrado</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="imageB" parent="AppTheme">
+        <item name="android:id">@id/btnEliminar</item>
+        <item name="android:layout_width">71dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">270dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Information</string>
+    <string name="txt1">"Name: "</string>
+    <string name="et1">Write your name</string>
+    <string name="txt2">"Last Name: "</string>
+    <string name="et2">Write your surnames</string>
+    <string name="txt3">"Age: "</string>
+    <string name="txt4">"Sex: "</string>
+    <string name="txt6">Sons</string>
+    <string name="rb1">Male</string>
+    <string name="rb2">Female</string>
+    <string name="sw1">No / Yes</string>
+    <string name="btn1">Generate</string>
+    <string name="txt5">Civil Status</string>
+    <string name="soltero">single</string>
+    <string name="casado">married</string>
+    <string name="viudo">widower/widow</string>
+    <string name="otro">other</string>
+    <string name="hijosSi">with children/s</string>
+    <string name="hijosNo">without children/s</string>
+    <string name="faltaNombre">Name is empty</string>
+    <string name="faltaApellidos">Last Name is empty</string>
+    <string name="faltaEdad">Age is empty</string>
+    <string name="faltaDatos">Entered Data Error</string>
+    <string name="menorEdad">underage</string>
+    <string name="mayorEdad">overage</string>
+</resources>
