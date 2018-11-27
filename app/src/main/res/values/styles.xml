@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
     </style>
     <style name="layoutVer" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
@@ -23,6 +25,7 @@
         <item name="android:layout_marginLeft">15dp</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginRight">15dp</item>
+
     </style>
     <style name="textView" parent="AppTheme">
         <item name="android:layout_width">100dp</item>
@@ -31,6 +34,7 @@
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/CELTG___"</item>
     </style>
     <style name="textView.txt1" parent="textView">
         <item name="android:text">@string/txt1</item>
@@ -79,6 +83,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginBottom">5dp</item>
+
     </style>
     <style name="rb1" parent="AppTheme">
         <item name="android:id">@id/rb1</item>
@@ -87,6 +92,7 @@
         <item name="android:layout_marginLeft">20dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:text">@string/rb1</item>
+        <item name="android:fontFamily">@font/Sunshine"</item>
     </style>
     <style name="rb2" parent="AppTheme">
         <item name="android:id">@id/rb2</item>
@@ -96,6 +102,7 @@
         <item name="android:layout_marginTop">-31dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:text">@string/rb2</item>
+        <item name="android:fontFamily">@font/Sunshine"</item>
     </style>
     <style name="spinner" parent="AppTheme">
         <item name="android:id">@id/lstEstados</item>
@@ -109,6 +116,7 @@
         <item name="android:background">@android:drawable/btn_dropdown</item>
         <item name="android:gravity">center</item>
         <item name="android:hapticFeedbackEnabled">false</item>
+
     </style>
     <style name="sw" parent="AppTheme">
         <item name="android:id">@id/sw1</item>
@@ -145,4 +153,6 @@
         <item name="android:layout_marginLeft">270dp</item>
         <item name="android:layout_marginTop">20dp</item>
     </style>
+
+    <style name="TemaPrueba" parent="AppTheme" />
 </resources>
