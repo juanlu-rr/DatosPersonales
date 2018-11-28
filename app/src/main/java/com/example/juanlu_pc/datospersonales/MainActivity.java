@@ -72,15 +72,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (et1.getText().toString().isEmpty() ){
                     txtMostrado.setText(getResources().getString(R.string.faltaNombre));
-                    txtMostrado.setTextColor(getResources().getColor(R.color.colorAccent));
+                    txtMostrado.setTextColor(getResources().getColor(R.color.colorError));
                 } else {
                     if (et2.getText().toString().isEmpty()){
                         txtMostrado.setText(getResources().getString(R.string.faltaApellidos));
-                        txtMostrado.setTextColor(getResources().getColor(R.color.colorAccent));
+                        txtMostrado.setTextColor(getResources().getColor(R.color.colorError));
                     } else {
                         if (et3.getText().toString().isEmpty()){
                             txtMostrado.setText(getResources().getString(R.string.faltaEdad));
-                            txtMostrado.setTextColor(getResources().getColor(R.color.colorAccent));
+                            txtMostrado.setTextColor(getResources().getColor(R.color.colorError));
                         } else {
                             if (Integer.parseInt(et3.getText().toString()) <= 17){
                                 mayoriaEdad = getResources().getString(R.string.menorEdad);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                             txtMostrado.setText(et2.getText().toString() + " , " + et1.getText().toString() + " , " + mayoriaEdad + " , " + sexo + " " +
                                     lstEstados.getSelectedItem().toString() + " y " + tieneHijos );
-                            txtMostrado.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
+                            txtMostrado.setTextColor(getResources().getColor(R.color.colorNegro));
                         }
                     }
                 }
