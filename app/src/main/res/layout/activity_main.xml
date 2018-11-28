@@ -6,54 +6,33 @@
     style="@style/layoutVer">
 
     <LinearLayout style="@style/layoutHor">
-
-        <TextView
-            style="@style/textView.txt1"
-            android:textSize="12sp"></TextView>
+        <TextView style="@style/textView.txt1"></TextView>
         <EditText style="@style/editText.et1"></EditText>
     </LinearLayout>
     <LinearLayout style="@style/layoutHor">
-
-        <TextView
-            style="@style/textView.txt2"
-            android:textSize="12sp"></TextView>
+        <TextView style="@style/textView.txt2"></TextView>
         <EditText style="@style/editText.et2"></EditText>
     </LinearLayout>
     <LinearLayout style="@style/layoutHor">
-
-        <TextView
-            style="@style/textView.txt3"
-            android:textSize="12sp"></TextView>
+        <TextView style="@style/textView.txt3"></TextView>
         <EditText style="@style/editText.et3"></EditText>
     </LinearLayout>
     <LinearLayout style="@style/layoutHor">
-
-        <TextView
-            style="@style/textView.txt4"
-            android:textSize="12sp"></TextView>
+        <TextView style="@style/textView.txt4"></TextView>
         <RadioGroup style="@style/radioGroup">
-
-            <RadioButton
-                style="@style/rb1"
-                android:textSize="12sp"></RadioButton>
-
-            <RadioButton
-                style="@style/rb2"
-                android:textSize="12sp"></RadioButton>
+            <RadioButton style="@style/rb1"></RadioButton>
+            <RadioButton style="@style/rb2"></RadioButton>
         </RadioGroup>
     </LinearLayout>
     <LinearLayout style="@style/layoutHor">
 
         <TextView
             style="@style/textView.txt5"
-            android:textSize="12sp"></TextView>
+            android:textSize="14sp"></TextView>
         <Spinner style="@style/spinner"></Spinner>
     </LinearLayout>
     <LinearLayout style="@style/layoutHor">
-
-        <TextView
-            style="@style/textView.txt6"
-            android:textSize="12sp"></TextView>
+        <TextView style="@style/textView.txt6"></TextView>
         <Switch style="@style/sw"></Switch>
     </LinearLayout>
     <Button style="@style/button1"></Button>

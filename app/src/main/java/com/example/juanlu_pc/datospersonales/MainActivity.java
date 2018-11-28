@@ -1,6 +1,5 @@
 package com.example.juanlu_pc.datospersonales;
 
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getString(R.string.viudo), getResources().getString(R.string.otro)};
         ArrayAdapter adaptadorEstados = new ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, estados);
         lstEstados.setAdapter(adaptadorEstados);
+
         rdSexo.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if (checkedId == R.id.rb1) sexo = getResources().getString(R.string.rb1);
@@ -90,12 +90,9 @@ public class MainActivity extends AppCompatActivity {
                             txtMostrado.setText(et2.getText().toString() + " , " + et1.getText().toString() + " , " + mayoriaEdad + " , " + sexo + " " +
                                     lstEstados.getSelectedItem().toString() + " y " + tieneHijos );
                             txtMostrado.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
-
                         }
                     }
-
                 }
-
             }
         });
         btnEliminar.setOnClickListener(new View.OnClickListener() {
